@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beğendiklerim</title>
+<meta property="og:title" content="Beğendiklerim">
+<meta property="og:description" content="4 seçilmiş tweet">
+<style>
+  :root { --bg: #f7f8f9; --card: #fff; --text: #0f1419; --muted: #5b6670; --line: #e4e7ea; --accent: #f5b400; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0d1013; --card: #161b20; --text: #e7e9ea; --muted: #8b98a5; --line: #2a3138; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 590px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { margin-bottom: 24px; }
+  h1 { font-size: 30px; line-height: 1.15; margin: 0 0 6px; }
+  .meta { color: var(--muted); }
+  a { color: inherit; }
+  .twitter-tweet { margin: 0 auto 16px !important; }
+  blockquote.twitter-tweet { border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; overflow-wrap: anywhere; }
+  blockquote.twitter-tweet p { margin: 0 0 8px; }
+  .lists { display: flex; flex-direction: column; gap: 10px; }
+  .lists a { display: flex; justify-content: space-between; gap: 12px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); text-decoration: none; font-weight: 600; }
+  .lists a:hover { border-color: var(--accent); }
+  .lists span { color: var(--muted); font-weight: 400; white-space: nowrap; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 13px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>⭐ Beğendiklerim</h1>
+    <div class="meta">4 seçilmiş tweet · 23 Ekim 2026 tarihinde güncellendi</div>
+  </header>
+  <blockquote class="twitter-tweet" data-dnt="true"><p lang="und" dir="auto">“Sakin ve mütevazı bir yaşam, sürekli huzursuzlukla birleşen başarı arayışından daha fazla mutluluk getirir.”<br><br>- Albert Einstein</p>&mdash; Kitaplardan Alıntılar (@sivriikalemler) <a href="https://twitter.com/sivriikalemler/status/2113163612525334547">22 Ekim 2026</a></blockquote>
+  <blockquote class="twitter-tweet" data-dnt="true"><p lang="und" dir="auto">Clipping wings</p>&mdash; Shekhar (@Shekharcoool5) <a href="https://twitter.com/Shekharcoool5/status/2113506845084266813">23 Ekim 2026</a></blockquote>
+  <blockquote class="twitter-tweet" data-dnt="true"><p lang="und" dir="auto">Spent a bunch of tokens over the last few weeks building a fully procedural New York simulation.<br><br><br>https://<br>mrdoob.github.io/slop-newyork/<br><br>It&#39;s only 784KB gzipped and the code is on github, so you can do whatever you want with it ✌️</p>&mdash; mrdoob (@mrdoob) <a href="https://twitter.com/mrdoob/status/2113177383658561721">22 Ekim 2026</a></blockquote>
+  <blockquote class="twitter-tweet" data-dnt="true"><p lang="und" dir="auto">Starting next week, sessions across Claude web, desktop, and mobile apps will run in auto mode by default on Pro, Max, and Team plans.<br><br>Rather than asking you to approve each step, an automated check blocks risky actions. Switch back to manual anytime.</p>&mdash; Claude (@claudeai) <a href="https://twitter.com/claudeai/status/2113360845409583307">22 Ekim 2026</a></blockquote>
+  <footer><a href="../">← Tüm listeler</a> · Tweet Listem ile hazırlandı</footer>
+</div>
+<script>
+  // Gömülü tweetleri ziyaretçinin açık/koyu tema tercihine göre göster
+  if (matchMedia('(prefers-color-scheme: dark)').matches)
+    document.querySelectorAll('.twitter-tweet').forEach(function (b) { b.setAttribute('data-theme', 'dark'); });
+  var s = document.createElement('script');
+  s.src = 'https://platform.twitter.com/widgets.js';
+  s.async = true;
+  document.body.appendChild(s);
+</script>
+</body>
+</html>
